@@ -69,4 +69,9 @@ app.get('/', (c) => {
   `);
 })
 
+app.get("/json", (c) => {
+  const info = getConnInfo(c);
+  return c.json(info.remote);
+});
+
 export default app;
