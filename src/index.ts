@@ -61,7 +61,7 @@ app.get('/', (c) => {
         <h1>Your Public IP Address</h1>
         <div class="ip-address">${info.remote.address || 'Unknown'}</div>
         <div class="footer">
-          Powered by <a href="https://developers.cloudflare.com/workers/" target="_blank">Cloudflare Workers</a>
+          Powered with <a href="https://github.com/junian/checkip" target="_blank">CheckIP</a>
         </div>
       </div>
     </body>
