@@ -2,27 +2,6 @@
 
 Check Public IP Address.
 
-## Development
-
-Install dependencies.
-
-```bash
-npm install
-```
-
-Run in local machine.
-
-```bash
-npm run dev
-```
-
-Deploy to Cloudflare Worker.
-
-
-```bash
-npm run deploy
-```
-
 ## Usage
 
 Open web browser.
@@ -52,3 +31,23 @@ public string GetPublicIPAddress()
 }
 ```
 
+## Development
+
+Install dependencies.
+
+```bash
+npm install
+```
+
+Run in local machine.
+
+```bash
+npm run dev
+```
+
+Deploy to Cloudflare Worker.
+
+
+```bash
+npm run deploy
+```
